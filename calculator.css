@@ -17,14 +17,18 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+    
     background-color: rgba(0, 0, 0, 0.744);
     color: white;
-    box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
-    10px 10px 70px rgba(0, 0, 0, 0.589),
+    
+}
+.calculator:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.67),
+    10px 10px 70px rgba(0, 0, 0, 0.761),
     inset 5px 5px 10px rgba(0, 0, 0, 0.82),
-    inset 5px 5px 20px rgba(255, 255, 255, 0.365),
-    inset -5px -5px 15px rgba(0,0,0,0.75);
+    inset 5px 5px 20px rgba(255, 255, 255, 0.876),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.862);
 }
 
 input[type="text"] {
